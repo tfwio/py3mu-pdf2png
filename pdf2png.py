@@ -33,11 +33,11 @@ This allows one to specify:
 - ROTATION: Only allows 90, 180 or 270.
 ''')
   
-  parser.add_argument('--alpha', '-a', action='store_true',   help='use aplha channel (assumes `--fmt png`).')
-  parser.add_argument('--dpi', action='store', default='72',  help='DPI resolution for rendering images. [DEFAULT: (72,72)].')
-  parser.add_argument('--rot', action='store', default='0',   help='Rotation Angle(s); EG: (MUST BE) 90, 180, 270')
-  parser.add_argument('--fmt', action='store', default='png', help='default=png; accepts: png | jpg')
-  parser.add_argument('--quality', '-q', action='store', default='63', help='default=63; integers 1-100 (percent)')
+  parser.add_argument('--alpha',   '-a', action='store_true',           help='use aplha channel (assumes `--fmt png`).')
+  parser.add_argument('--dpi',     '-d', action='store', default='72',  help='DPI resolution for rendering images. [DEFAULT: (72,72)].')
+  parser.add_argument('--rot',     '-r', action='store', default='0',   help='Rotation Angle(s); EG: (MUST BE) 90, 180, 270')
+  parser.add_argument('--fmt',     '-f', action='store', default='png', help='default=png; accepts: png | jpg')
+  parser.add_argument('--quality', '-q', action='store', default='63',  help='default=63; integers 1-100 (percent)')
   parser.add_argument('file', nargs='*')
   
   app_args = parser.parse_args()
