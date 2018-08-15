@@ -1,4 +1,4 @@
-#! python
+#!/usr/bin/env python3
 '''
 
 This was once one of the demo or example py-script(s) to extract images
