@@ -15,7 +15,6 @@ import fitz
 import PIL
 import sys
 import time
-import numpy as np
 
 app_args = None
 
