@@ -1,0 +1,40 @@
+Windows Registry Editor Version 5.00
+
+; Created with Default Programs Editor
+; http://defaultprogramseditor.com/
+
+; Add Verb
+[HKEY_CURRENT_USER\Software\Classes\SumatraPDF\shell\ExportJPGRotation0DPI96]
+@="Export JPG DPI=96"
+[HKEY_CURRENT_USER\Software\Classes\SumatraPDF\shell\ExportJPGRotation0DPI96\command]
+@="\"E:\\dev\\home\\python-proj\\pymupdf-pdf2png\\pdf2jpg-dpi96-r0\" \"%1\""
+[HKEY_CURRENT_USER\Software\Classes\SumatraPDF\shell\ExportJPGRotation0DPI96]
+"Icon"="C:\\Users\\xo\\AppData\\Local\\Programs\\Python\\Python36\\python.exe,0"
+
+
+; Add Verb
+[HKEY_CURRENT_USER\Software\Classes\SumatraPDF\shell\ExportJPGRotation90DPI96]
+@="Export JPG Rotation=90 DPI=96"
+[HKEY_CURRENT_USER\Software\Classes\SumatraPDF\shell\ExportJPGRotation90DPI96\command]
+@="\"E:\\dev\\home\\python-proj\\pymupdf-pdf2png\\pdf2jpg-dpi96-r90\" \"%1\""
+[HKEY_CURRENT_USER\Software\Classes\SumatraPDF\shell\ExportJPGRotation90DPI96]
+"Icon"="C:\\Users\\xo\\AppData\\Local\\Programs\\Python\\Python36\\python.exe,0"
+
+
+; Add Verb
+[HKEY_CURRENT_USER\Software\Classes\SumatraPDF\shell\ExportJPGRotation90DPI200]
+@="Export JPG Rotation=90 DPI=200"
+[HKEY_CURRENT_USER\Software\Classes\SumatraPDF\shell\ExportJPGRotation90DPI200\command]
+@="\"E:\\dev\\home\\python-proj\\pymupdf-pdf2png\\pdf2jpg-r90\" \"%1\""
+[HKEY_CURRENT_USER\Software\Classes\SumatraPDF\shell\ExportJPGRotation90DPI200]
+"Icon"="C:\\Users\\xo\\AppData\\Local\\Programs\\Python\\Python36\\python.exe,0"
+
+
+; Add Verb
+[HKEY_CURRENT_USER\Software\Classes\SumatraPDF\shell\ExportJPGRotation0DPI200]
+@="Export JPG DPI=200"
+[HKEY_CURRENT_USER\Software\Classes\SumatraPDF\shell\ExportJPGRotation0DPI200\command]
+@="\"E:\\dev\\home\\python-proj\\pymupdf-pdf2png\\pdf2jpg-r0\" \"%1\""
+[HKEY_CURRENT_USER\Software\Classes\SumatraPDF\shell\ExportJPGRotation0DPI200]
+"Icon"="C:\\Users\\xo\\AppData\\Local\\Programs\\Python\\Python36\\python.exe,0"
+
